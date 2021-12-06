@@ -9,6 +9,7 @@ c=3
 while c>0:
 	guess = input('guess the word')
 	if guess=='p':
+		print("p _ t h _ n")
 		p=True
 		if o and y:
 			print(' p y t h o n ')
@@ -19,6 +20,7 @@ while c>0:
 		elif y:
 			print(' p y t h _ n ')
 	elif guess=='y':
+		print("_ y t h _ n")
 		y=True
 		if o and p:
 			print(' p y t h o n ')
@@ -29,6 +31,7 @@ while c>0:
 		elif p:
 			print(' p y t h _ n ')
 	elif guess=='o':
+		print("_ _ t h o n")
 		o=True
 		if p and y:
 			print(' p y t h o n ')
